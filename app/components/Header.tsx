@@ -6,7 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { HamburgerMenu } from "./design/Header";
-import MagicButton from "./ui/MagicButton";
+
 
 const Header = () => {
   const pathname = usePathname();
