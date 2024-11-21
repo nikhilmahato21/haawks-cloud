@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative">
       <div>
         <BackgroundGradientAnimation>
-          <div className="absolute z-20 inset-0 flex flex-col gap-5 top-[8rem] items-center text-white font-bold px-4  text-3xl text-center md:text-4xl ">
+          <div className="absolute z-30 inset-0 flex flex-col gap-5 top-[8rem] items-center text-white font-bold px-4  text-3xl text-center md:text-4xl ">
             <p className="bg-clip-text capitalize text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 max-w-4xl">
               Making decentralized cloud storage most reliable warehouse of
               global data
