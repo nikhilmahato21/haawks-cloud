@@ -1,6 +1,7 @@
 import React from "react";
 import { articles1, articles2 } from "../constants";
 import { ArticleScroll } from "./ui/ArticleScroll";
+import StatisticCard from "./StatisticsCard";
 
 const Article = () => {
   return (
@@ -11,14 +12,17 @@ const Article = () => {
           Leaks
         </span>
       </h2>
-      <div className="container">
+      <div className="container ">
+        <div className="flex items-center justify-center py-6">
+          <StatisticCard value={17861069320} />
+        </div>
+
         <div className="flex items-center justify-center">
-          <ArticleScroll items={articles1} direction="right" speed="normal" />
+          <ArticleScroll items={articles1} direction="right" speed="slow" />
         </div>
         <div className="flex items-center justify-center">
-          <ArticleScroll items={articles2} direction="left" speed="normal" />
+          <ArticleScroll items={articles2} direction="left" speed="slow" />
         </div>
-        
       </div>
     </section>
   );
