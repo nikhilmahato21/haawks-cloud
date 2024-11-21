@@ -63,7 +63,7 @@ const Header = () => {
         </nav>
         <a
           href="#signup"
-          className="button hidden mr-8 border-2 rounded-full text-sm p-2  transition-colors text-n-1 lg:block shadow-[0_0_10px_white] "
+          className="button hidden mr-8 border-2 rounded-full text-sm p-2  transition-colors text-n-1 lg:block hover:shadow-[0_0_10px_white] "
         >
           Sign Up
         </a>
