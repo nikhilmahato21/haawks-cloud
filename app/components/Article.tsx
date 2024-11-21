@@ -5,7 +5,7 @@ import StatisticCard from "./StatisticsCard";
 
 const Article = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-6">
+    <section className="flex flex-col justify-center items-center py-6 pt-10">
       <h2 className="font-bold capitalize  mb-4 md:mb-8 text-4xl bg-clip-text text-transparent text-center  px-6 drop-shadow-2xl  bg-gradient-to-b from-white/80 to-white/90 max-w-2xl">
         Global Data
         <span className="text-transparent ml-2 bg-clip-text bg-gradient-to-r from-blue-400 to-[#4d229e]">
