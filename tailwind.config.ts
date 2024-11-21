@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 import type { Config } from "tailwindcss";
 
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
@@ -60,7 +62,7 @@ const config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
         scroll:
-        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         moveHorizontal: {
@@ -73,7 +75,6 @@ const config = {
           "100%": {
             transform: "translateX(-50%) translateY(-10%)",
           },
-          
         },
         moveInCircle: {
           "0%": {
@@ -103,8 +104,6 @@ const config = {
           },
         },
       },
-        
-        
     },
   },
   plugins: [addVariablesForColors],
