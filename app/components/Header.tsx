@@ -1,12 +1,13 @@
 "use client";
 
+import React from "react";
+
 import { navigation } from "../constants";
 import MenuSvg from "./svg/MenuSvg";
 import { useState } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { HamburgerMenu } from "./design/Header";
-
 
 const Header = () => {
   const pathname = usePathname();
@@ -51,7 +52,7 @@ const Header = () => {
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                } lg:leading-5 lg:hover:text-n-1 xl:px-10`}
               >
                 {item.title}
               </a>
@@ -64,7 +65,7 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 border-2 rounded-full text-sm p-2  transition-colors text-n-1 lg:block shadow-[0_0_10px_white] "
         >
-         Sign Up
+          Sign Up
         </a>
         <div onClick={toggleNavigation} className="ml-auto lg:hidden">
           <MenuSvg openNavigation={openNavigation} />
