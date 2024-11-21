@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/infiniteMovingCards";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden ">
       <div>
         <BackgroundGradientAnimation>
           <div className="absolute z-30 inset-0 flex flex-col gap-5 top-[8rem] items-center text-white font-bold px-4  text-3xl text-center md:text-4xl ">
@@ -41,6 +41,7 @@ const Hero = () => {
           </div>
         </BackgroundGradientAnimation>
       </div>
+      
     </div>
   );
 };

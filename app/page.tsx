@@ -3,7 +3,8 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-
+import Landing from "./components/Landing";
+import Article from "./components/Article";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         {" "}
         <Header />
         <Hero />
-        <About/>
+        <About />
+        <Article />
       </div>
     </main>
   );

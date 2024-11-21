@@ -12,7 +12,7 @@ import { HamburgerMenu } from "./design/Header";
 const Header = () => {
   const pathname = usePathname();
   console.log(pathname);
-  const [openNavigation, setOpenNavigation] = useState(true);
+  const [openNavigation, setOpenNavigation] = useState(false);
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
