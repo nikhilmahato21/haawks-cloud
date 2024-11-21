@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-
 import type { Config } from "tailwindcss";
 
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
