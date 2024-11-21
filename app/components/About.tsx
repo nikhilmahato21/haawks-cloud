@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="px-3 bg-white py-10 lg:px-20 flex flex-col items-center justify-center">
+    <section className="px-3 bg-white py-10 lg:px-20 flex flex-col items-center justify-center h-screen">
       {/* <h2 className="font-bold capitalize text-black mb-4 md:mb-8 text-4xl bg-clip-text text-transparent text-center  px-6 drop-shadow-2xl  bg-gradient-to-b from-white/80 to-white/90 max-w-2xl">
         Empowering users with  
         <span className="text-transparent ml-2 bg-clip-text bg-gradient-to-r from-blue-400 to-[#4d229e]">
