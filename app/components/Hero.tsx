@@ -41,7 +41,6 @@ const Hero = () => {
           </div>
         </BackgroundGradientAnimation>
       </div>
-      
     </div>
   );
 };

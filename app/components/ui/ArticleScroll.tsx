@@ -89,7 +89,7 @@ export const ArticleScroll = ({
       >
         {items.map((item) => (
           <li
-            className="w-[350px] h-[180px] max-w-full p-3 relative rounded-2xl border-2  flex-shrink-0  border-[#4D229E] overflow-hidden  md:w-[350px]"
+            className="w-[280px] h-[150px] max-w-full p-3 relative rounded-2xl border-2  flex-shrink-0  border-[#4D229E] overflow-hidden  md:w-[280px]"
             
             key={item.srNo}
           >
@@ -110,7 +110,7 @@ export const ArticleScroll = ({
                     </span>
                   </span>
                 </div>
-                <span className=" absolute underline capitalize z-20 bottom-1 text-lg font-bold leading-[1.6] text-gray-100 ">
+                <span className=" absolute underline capitalize z-20 bottom-4 text-lg font-bold leading-[1.6] text-gray-100 ">
                   <a href={item.link}>{item.nameOfArticle}</a>
                 </span>
               </div>
